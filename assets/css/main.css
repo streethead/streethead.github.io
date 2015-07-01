@@ -1,0 +1,255 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#body{
+    background-color: #ffd200;
+    color: #242528;
+}
+
+/* = Logo */
+#logo {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+#logo img{
+    width: 280px;
+}
+
+/* = Header */
+#header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.head-line {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.sentence {
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    max-width: 800px;
+    font-weight: 300;
+}
+
+.github-cta {
+    display: block;
+    text-decoration: none;
+    color: #242528;
+    width: 200px;
+    margin: auto;
+}
+
+.github-cta:hover {
+    color: #fff;
+}
+
+.github-cta i {
+    font-size: 80px;
+}
+
+/* = Expositions */
+
+.exposition {
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+}
+
+.expo-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.expo-poster img {
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    margin: auto;
+    min-width: 100%;
+}
+
+.expo-content {
+    position: relative;
+}
+
+.expo-part{
+    float:left;
+    width: 40%;
+}
+
+.expo-full-part{
+    float:left;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    position: relative;
+}
+
+.expo-full-part-content {
+    vertical-align:middle;
+    display:inline-block;
+    line-height:normal;
+    text-align:left;
+    max-width: 460px;
+}
+
+.expo-full-part img {
+    vertical-align:middle;
+    display:inline-block;
+    line-height:normal;
+    text-align:left;
+}
+
+.expo-part:nth-child(2){
+    float:right;
+}
+
+.expo-header {
+    margin-top: 0px;
+    font-size: 36px;
+}
+
+.expo-sentence {
+    font-size: 20px;
+}
+
+.expo-header-content {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+    text-align: left;
+}
+
+.expo-meet .expo-sentence,
+.expo-meet .expo-header {
+    height:400px;
+    line-height:400px;
+    text-align: center;
+}
+
+.expo-sentence-content {
+    max-width: 470px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.expo-open-source {
+    background-color: #ffd200;
+    color: #242528;
+}
+
+/* = Subscriber */
+.subscriber {
+    max-width: 750px;
+    margin: auto;
+    padding: 130px;
+}
+
+.sub-header {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.sub-sentence {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.uggly-mailchimp-form {
+    position: relative;
+    height: 75px;
+}
+
+#mc_embed_signup input.mce_inline_error{
+    color: #fff;
+    background-color: red;
+}
+
+#mc_embed_signup div.mce_inline_error {
+    display: none !important;
+}
+
+#mce-success-response {
+    position: absolute;
+    top: 90px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    background-color: #ffd200;
+    color: green;
+}
+
+.uggly-mailchimp-input:focus {
+    outline: 0 none;
+}
+
+.uggly-mailchimp-input {
+    border: none;
+    background-color: #fff;
+    padding: 20px;
+    color: #585859;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 28px;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    max-width: 536px;
+    min-width: 72%;
+}
+
+.uggly-mailchimp-button {
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: #242528;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 19px;
+    position: absolute;
+    right:0px;
+    top: 0px;
+    display: inline-block;
+    max-width: 175px;
+    min-width: 30%;
+}
+
+#footer {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.footer-sentence {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.footer-sentence:nth-child(2){
+    text-align: right;
+}
