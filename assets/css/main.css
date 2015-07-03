@@ -242,14 +242,5 @@ body {
     font-size: 18px;
     padding: 30px;
     overflow: hidden;
-}
-
-.footer-sentence {
-    float: left;
-    width: 50%;
-    text-align: left;
-}
-
-.footer-sentence:nth-child(2){
-    text-align: right;
+    text-align: center;
 }
